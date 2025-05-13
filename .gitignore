@@ -1,0 +1,32 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# VSCode settings (optional)
+.vscode/
+
+# Node-related (only if you add Node stuff in the future)
+node_modules/
+npm-debug.log*
+
+# Python cache (if you ever add Python scripts later)
+__pycache__/
+*.py[cod]
+
+# Shell history
+.bash_history
+
+# Output/test artifacts (if any)
+*.out
+*.test
+
+# Ignore GitHub Actions runner logs (just in case)
+*.workflow.log
+
