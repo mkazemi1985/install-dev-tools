@@ -34,10 +34,13 @@ git clone git@github.com:mkazemi1985/install-dev-tools.git
 cd install-dev-tools
 chmod +x install-dev-tools.sh
 ./install-dev-tools.sh
+```
 
-⚠️ This script uses apt, so it's intended for Debian-based systems (like Ubuntu).
+> ⚠️ This script uses `apt`, so it's intended for Debian-based systems (like Ubuntu).
 
-🔄 CI Integration
+---
 
-The GitHub Actions workflow (.github/workflows/ci.yml) runs the install script in a clean Ubuntu environment
+## 🔄 CI Integration
+
+The GitHub Actions workflow (`.github/workflows/ci.yml`) runs the install script in a clean Ubuntu environment  
 on every push and pull request. This ensures the script remains valid and up to date.
